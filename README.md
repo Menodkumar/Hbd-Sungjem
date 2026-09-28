@@ -9,4 +9,3 @@ Personalized birthday website for Sungjem (Ajung).
 - On September 28, the countdown intentionally displays 00:00:00:00 and says Happy Birthday.
 - Music is bundled locally in `audio/birthday-piano.mp3`; do not delete or rename it.
 
-Upload the contents to GitHub Pages or Netlify as a static site.
