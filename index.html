@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#170c21">
+<meta name="description" content="A birthday surprise for Sungjem — a little romantic, a little playful, and from the heart.">
+<title>Happy Birthday, Sungjem ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Dancing+Script:wght@600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader"><div class="loader-heart">♡</div><p>Preparing something for Sungjem...</p></div>
+<div class="bg-glow g1"></div><div class="bg-glow g2"></div><canvas id="stars"></canvas>
+
+<header class="nav">
+  <a class="logo" href="#home">♡ SUNGJEM</a>
+  <nav>
+    <a href="#home">Home</a><a href="#message">Message</a><a href="#gallery">Gallery</a><a href="#wish">Birthday Wish</a>
+  </nav>
+  <button id="musicBtn" class="music" type="button"><span class="bars"><i></i><i></i><i></i><i></i></span><span id="musicLabel">Play Music</span></button>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-photo reveal">
+    <div class="tape t1"></div><div class="tape t2"></div>
+    <div class="photo-frame">
+      <img src="images/sungjem-main.jpg" alt="Sungjem">
+      <span class="photo-caption">Sungjem ♡</span>
+    </div>
+    <div class="scribble">pretty girl<br><span>♡</span></div>
+  </div>
+
+  <div class="hero-copy reveal">
+    <p class="eyebrow">A little birthday page, just for you</p>
+    <h1><span>Happy Birthday</span><strong>Sungjem</strong></h1>
+    <p class="nickname">to my <em>Ajung</em> ♡</p>
+    <p class="intro">Some people arrive quietly and somehow make an ordinary chapter feel a little more special.</p>
+    <div class="date-line"><span>28</span> SEPTEMBER</div>
+
+    <div class="count-card">
+      <div class="count-title">BIRTHDAY COUNTDOWN <small>INDIA TIME</small></div>
+      <div class="countdown">
+        <div><b id="days">00</b><small>Days</small></div><i>:</i>
+        <div><b id="hours">00</b><small>Hours</small></div><i>:</i>
+        <div><b id="minutes">00</b><small>Minutes</small></div><i>:</i>
+        <div><b id="seconds">00</b><small>Seconds</small></div>
+      </div>
+      <p id="countStatus">Counting down to September 28...</p>
+    </div>
+
+    <div class="actions">
+      <button class="primary" id="openLetter">Open My Message ♡</button>
+      <a class="secondary" href="#gallery">See the photos</a>
+    </div>
+  </div>
+</section>
+
+<section class="message-section" id="message">
+  <div class="paper reveal">
+    <p class="label">A LETTER FOR YOU</p>
+    <h2>Happy Birthday, Ajung ♡</h2>
+    <p>I'm really glad we got this chance to be together. Even if this chapter is short, I'm happy that I get to share a little part of it with you.</p>
+    <p>Meeting you and getting to know you has made these days feel a little different—in a good way. I like the little conversations, the random moments, and simply having you around.</p>
+    <p>I don't want to make this sound like some giant movie speech. I just want you to know that I appreciate this chance, and I'm genuinely happy that it's <strong>us</strong> for this little while.</p>
+    <p>On your birthday, I hope you get happiness, good health, peaceful days, and plenty of reasons to smile. I hope this new year of your life brings you closer to the things you dream about.</p>
+    <p>Happy Birthday once again, Ajung. ♡<br>Let's make the most of the moments we do have.</p>
+    <div class="signature">— Yours, with a smile ♡</div>
+  </div>
+
+  <div class="reasons reveal">
+    <p class="label">A LITTLE SOMETHING</p>
+    <h3>Why this feels special</h3>
+    <ul>
+      <li><span>♡</span> I'm glad our paths crossed.</li>
+      <li><span>♡</span> I like the way we can talk naturally.</li>
+      <li><span>♡</span> You make simple moments feel memorable.</li>
+      <li><span>♡</span> I'm grateful for this chance to be together.</li>
+      <li><span>♡</span> And honestly... I'm just happy you're here.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="gallery-section" id="gallery">
+  <div class="section-title reveal"><p class="label">A FEW FRAMES</p><h2>Little pieces of <em>you.</em></h2></div>
+  <div class="gallery">
+    <figure class="main-gallery reveal"><img src="images/sungjem-main.jpg" alt="Sungjem portrait"><figcaption>My Ajung ♡</figcaption></figure>
+    <figure class="secondary-gallery reveal"><img src="images/sungjem-gallery.jpg" alt="Sungjem mirror selfie"><figcaption>That smile ♡</figcaption></figure>
+    <div class="quote reveal">
+      <span>“</span>
+      <p>Same sky, different places — still glad our paths crossed.</p>
+      <small>♡</small>
+    </div>
+  </div>
+</section>
+
+<section class="wish" id="wish">
+  <div class="wish-card reveal">
+    <div class="wish-icon">✦</div>
+    <p class="label">MY BIRTHDAY WISH FOR YOU</p>
+    <h2>May 28 September bring you a beautiful new chapter.</h2>
+    <p>May you stay happy, healthy and surrounded by people who genuinely care about you. And may this year give you memories that make you smile long after the moment has passed.</p>
+    <div class="wish-footer">Happy Birthday, Sungjem ♡</div>
+  </div>
+</section>
+</main>
+
+<footer>Made with ♡ for Sungjem • 28 September</footer>
+
+<div class="modal" id="modal" hidden>
+  <div class="backdrop" id="closeBackdrop"></div>
+  <article class="modal-card">
+    <button class="close" id="closeModal">×</button>
+    <p class="label">JUST A LITTLE MORE</p>
+    <h2>For you, Ajung ♡</h2>
+    <div id="typed" class="typed"></div>
+    <button class="primary" id="celebrate">Celebrate ✨</button>
+  </article>
+</div>
+<div id="toast" class="toast">A little extra sparkle for your birthday. ✨</div>
+<script src="script.js"></script>
+</body>
+</html>
